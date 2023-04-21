@@ -130,6 +130,7 @@ CREATE TABLE `sys_log` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2994 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
+
 -- ----------------------------
 --  Table structure for `sys_user`
 -- ----------------------------
@@ -141,13 +142,13 @@ CREATE TABLE `sys_user` (
   `avatar` varchar(255) DEFAULT NULL,
   `create_date` datetime DEFAULT NULL,
   `deleted` bit(1) DEFAULT NULL,
-  `email` varchar(128) DEFAULT NULL,
+  
   `last_login` datetime DEFAULT NULL,
   `mobile_phone_number` varchar(20) DEFAULT NULL,
   `nickname` varchar(255) DEFAULT NULL,
   `password` varchar(64) DEFAULT NULL,
   `salt` varchar(255) DEFAULT NULL,
-  `status` varchar(255) DEFAULT NULL,
+
   PRIMARY KEY (`id`),
   UNIQUE KEY `UK_awpog86ljqwb89aqa1c5gvdrd` (`account`),
   UNIQUE KEY `UK_ahtq5ew3v0kt1n7hf1sgp7p8l` (`email`)

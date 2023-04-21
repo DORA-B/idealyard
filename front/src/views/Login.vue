@@ -28,7 +28,7 @@
       <div class="me-login-design">
         <p>Powered by
           <strong>
-            <router-link to="/" class="me-login-design-color">IMOYAO</router-link>
+            <router-link to="/" class="me-login-design-color">DORA</router-link>
           </strong>
         </p>
       </div>

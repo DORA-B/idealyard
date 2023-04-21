@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 # Created by imoyao at 2019/6/29 8:01
 
-
 from flask import Blueprint
 from flask import abort, current_app, jsonify
 from jinja2 import TemplateNotFound

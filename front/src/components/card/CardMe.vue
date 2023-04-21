@@ -18,7 +18,7 @@
     <div class="profile-detail">
       <i @click="showTool(qq)" :title="qq.title" class="iconfont icon-QQ"></i>
       <i @click="showTool(github)" :title="github.title" class="iconfont icon-github-fill"></i>
-      <i @click="showTool(douban)" :title="douban.title" class="iconfont icon-movie"></i>
+      <i @click="showTool(bilibili)" :title="bilibili.title" class="iconfont icon-movie"></i>
       <i @click="showTool(zhihu)" :title="zhihu.title" class="iconfont icon-zhihu"></i>
       <i @click="showTool(email)" :title="email.title" class="iconfont icon-mail"></i>
     </div>
@@ -34,28 +34,28 @@
     data() {
       return {
         profile: {
-          'username': '张牧志',
-          'slogan': 'Valar Dohaeris.',
-          'location': '鹅城',
+          'username': '庯茳伍德',
+          'slogan': '两个大力士',
+          'location': 'China',
           'company': '讲武堂',
-          'occupation': '麻匪',
+          'occupation': '大师',
         },
-        qq: {title: 'QQ', message: 'NDQ1NTY3ODg5'},
+        qq: {title: 'QQ', message: 'Call him!'},
         github: {
           title: 'Github',
-          message: 'https://github.com/imoyao'
+          message: 'https://github.com/DORA-B'
         },
-        douban: {
-          title: 'Movie',
-          message: 'https://movie.douban.com/people/imoyao'
+        bilibili: {
+          title: 'Bilibili',
+          message: 'https://space.bilibili.com/354657020'
         },
         zhihu: {
           title: 'Zhihu',
-          message: 'https://www.zhihu.com/people/imoyao'
+          message: 'https://www.zhihu.com/people/DORA'
         },
         email: {
           title: 'Email',
-          message: 'mailto:imsantu@126.com'
+          message: '2358543632@qq.com'
         }
       }
     },

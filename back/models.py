@@ -9,7 +9,7 @@ from datetime import datetime
 from flask import current_app
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import or_
-from itsdangerous import (TimedJSONWebSignatureSerializer
+from itsdangerous import (TimedJSONWebSignatureSerializer 
                           as Serializer, BadSignature, SignatureExpired)
 from passlib.apps import custom_app_context
 

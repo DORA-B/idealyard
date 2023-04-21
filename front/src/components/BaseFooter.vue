@@ -3,7 +3,7 @@
     <div class="me-footer">
       <p>Powered by
         <strong>
-          <router-link to="/" class="me-login-design-color">iMOYAO</router-link>
+          <router-link to="/" class="me-login-design-color">DORA</router-link>
         </strong>
       </p>
     </div>

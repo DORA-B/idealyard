@@ -7,8 +7,8 @@
           <el-header>
             <el-menu style="background: transparent">
               <router-link to="/" class="me-title">
-                <img src="../assets/img/logo.png" alt="别院牧志">
-                <h1 class="site-name">别院牧志</h1>
+                <img src="../assets/img/logo.png" alt="SAGTAHELPER">
+                <h1 class="site-name">SAGTAHELPER</h1>
               </router-link>
             </el-menu>
           </el-header>
@@ -171,11 +171,11 @@
         emailSpan2Ipt: false,
         src: 'https://pic2.zhimg.com/80/v2-e407aeb66333b4b8e1b4bbfc3b2d4d5d_r.jpg',
         userProfileForm: {
-          slogan: '而今笑问君何在？醉看鱼肚白。',
+          slogan: 'Enjoy a good time!',
           location: '北京',
-          nickname: 'imoyao',
-          username: '张牧志',
-          email: 'imsantu@126.com',
+          nickname: 'DORA',
+          username: 'DORA-B',
+          email: '2358543632@qq.com',
           avatar: 'beijing',
         },
         fileList: [{name: 'zhimg', url: 'https://pic2.zhimg.com/80/v2-e407aeb66333b4b8e1b4bbfc3b2d4d5d_r.jpg'}]

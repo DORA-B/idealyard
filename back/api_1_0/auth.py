@@ -124,7 +124,6 @@ class ResetPassword(Resource):
         """
         # 已注册用户访问该页面
         curl -u admin:123456 -i -X GET http://127.0.0.1:5000/api/password
-
         首先获取token:
         curl -u admin:123456 -i -X GET http://127.0.0.1:5000/api/token
         然后根据token访问页面：

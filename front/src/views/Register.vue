@@ -1,5 +1,5 @@
 <template>
-  <div id="register" v-title data-title="注册  - 别院牧志">
+  <div id="register" v-title data-title="REGISTER - SAGTAHELPER">
 
     <div class="me-login-box me-login-box-radius">
       <h1>注册</h1>
@@ -48,7 +48,7 @@
       <div class="me-login-design">
         <p>Powered by
           <strong>
-            <router-link to="/" class="me-login-design-color">IMOYAO</router-link>
+            <router-link to="/" class="me-login-design-color">DORA</router-link>
           </strong>
         </p>
       </div>
@@ -134,7 +134,7 @@
         this.$refs[formName].validate((valid) => {
           if (valid) {
             that.$store.dispatch('register', that.userForm).then(() => {
-              that.$message.success({message: '注册成功 快写文章吧', showClose: true});
+              that.$message.success({message: '注册成功 开始探险', showClose: true});
               that.$router.push({path: '/'})
             }).catch((error) => {
               if (error !== 'error') {

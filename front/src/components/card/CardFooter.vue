@@ -10,13 +10,13 @@
       </div>
 
       <ul class="more-list">
-        <li class="item"><span>©2019 别院牧志</span></li>
+        <li class="item"><span>©2022 Database</span></li>
       </ul>
       <ul class="more-list">
         <li class="item">
           <p>Powered by
             <strong>
-              <span class="me-login-design-color">iMOYAO</span>
+              <span class="me-login-design-color">DORA</span>
             </strong>
           </p>
         </li>
